@@ -2,7 +2,7 @@ import csv
 from collections import Counter
 
 
-# task 1 - thiago guarino
+# aux function 1 - thiago guarino
 def restaurant_output(path_to_file):
     restaurant_dishes, restaurant_days = set(), set()
 
@@ -20,6 +20,7 @@ def restaurant_output(path_to_file):
     }
 
 
+# aux function 2 - thiago guarino
 def maria_output(path_to_file):
     maria_orders = list()
 
@@ -34,6 +35,7 @@ def maria_output(path_to_file):
     }
 
 
+# aux function 3 - thiago guarino
 def arnaldo_output(path_to_file):
     arnaldo_orders = list()
 
@@ -49,6 +51,7 @@ def arnaldo_output(path_to_file):
     }
 
 
+# aux function 4 - thiago guarino
 def joao_output(path_to_file):
     joao_fav_dishes, joao_restaurant_days = set(), set()
 
@@ -65,6 +68,7 @@ def joao_output(path_to_file):
     }
 
 
+# task 1 - thiago guarino
 def analyze_log(path_to_file):
     if (path_to_file.endswith('.csv')) is not True:
         raise FileNotFoundError(f"Extensão inválida: '{path_to_file}'")
