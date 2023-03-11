@@ -2,6 +2,7 @@ import csv
 from collections import Counter
 
 
+# task 1 - thiago guarino
 def restaurant_output(path_to_file):
     restaurant_dishes, restaurant_days = set(), set()
 
