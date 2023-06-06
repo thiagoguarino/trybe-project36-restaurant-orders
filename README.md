@@ -38,8 +38,9 @@
   4.1 - when executing the add_new_order method for an order with a dish that does not have enough ingredients in stock, the method returns False | :heavy_check_mark:
   4.2 - when executing the get_available_dishes method, the method returns all the dishes that have enough ingredients for their preparation | :heavy_check_mark:
   4.3 - when executing the get_available_dishes method, the method does not return dishes whose ingredients are not enough for their preparation | :heavy_check_mark:
+
 </details>
-ao executar o método `get_quantities_to_buy` o método retorna a quantidade de ingredientes que precisam ser comprados de hamburguer
+
 
 ## HOW TO RUN THE APP
 
