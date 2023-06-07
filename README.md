@@ -32,6 +32,8 @@
     <b>Tasks and Status</b>
   </summary>
 
+   * tasks 3 and 4 are bonus tasks
+
   *description* | *status*
   --- | :---:
   1.1 - when executing the `analyze_log` method, the data is correctly filled in the `data/mkt_campaign.txt` file | :heavy_check_mark:
@@ -72,10 +74,9 @@
 
   - `python3 -m pip install -r dev-requirements.txt`
 
-  5. To execute the app:
-  
-  - on `analyze_log`, call the analyze_log(path_to_file) function and set a path file (data/orders_1.csv). then, run it.
-  
-  - on `main.py` set "path" var to a path (data/orders_1.csv) - deals with inventory_control & track_orders.
-  
-  - on root folder type: `python3.11 src/main.py`
+  <details>
+  <summary><strong>How To Execute the App</strong></summary>
+    As of this moment there is no way to 'execute' this app.
+
+    **TO DO**: *create a Console App to provide an execution mode for this project.* 
+  </details>
