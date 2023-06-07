@@ -11,9 +11,7 @@
 
   For the bonus tasks, the focus of the project should be controlling the stock of ingredients to ensure that the digital menu of Pão na Chapa always offers products that are available in stock, avoiding frustration on the part of customers.
   
-  The project is structured in two mandatory task and two bonus tasks.
-
-  Stack: Python3.
+  The project is structured in two mandatory task and two bonus tasks. Stack: Python3.
 
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
@@ -49,9 +47,9 @@
   3.1 - when executing the `get_quantities_to_buy` method, the method returns the updated list of ingredients | :heavy_check_mark:
   3.2 - when executing the `get_quantities_to_buy` method, the method returns the amount of ingredients that need to be bought for hamburger | :heavy_check_mark:
   3.3 - when executing the `get_quantities_to_buy` method, the method returns the updated list of ingredients that use different recipes | :heavy_check_mark:
-  4.1 - when executing the add_new_order method for an order with a dish that does not have enough ingredients in stock, the method returns False | :heavy_check_mark:
-  4.2 - when executing the get_available_dishes method, the method returns all the dishes that have enough ingredients for their preparation | :heavy_check_mark:
-  4.3 - when executing the get_available_dishes method, the method does not return dishes whose ingredients are not enough for their preparation | :heavy_check_mark:
+  4.1 - when executing the `add_new_order` method for an order with a dish that does not have enough ingredients in stock, the method returns False | :heavy_check_mark:
+  4.2 - when executing the `get_available_dishes` method, the method returns all the dishes that have enough ingredients for their preparation | :heavy_check_mark:
+  4.3 - when executing the `get_available_dishes` method, the method does not return dishes whose ingredients are not enough for their preparation | :heavy_check_mark:
 
 </details>
 
