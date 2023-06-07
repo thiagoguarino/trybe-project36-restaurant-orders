@@ -76,6 +76,6 @@
   
   - on `analyze_log`, call the analyze_log(path_to_file) function and set a path file (data/orders_1.csv). then, run it.
   
-  - on `main.py` set "path" variable to a .csv path file (data/orders_1.csv) - deals with inventory_control & track_orders.
+  - on `main.py` set "path" var to a path (data/orders_1.csv) - deals with inventory_control & track_orders.
   
   - on root folder type: `python3.11 src/main.py`
