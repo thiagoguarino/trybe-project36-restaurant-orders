@@ -5,7 +5,9 @@
 
   This is project #6 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/). This is the last project of the Module.
 
-  A lanchonete Pão na Chapa possui um sistema de faturamento de pedidos de clientes que salva o nome da pessoa, o pedido realizado e o dia da semana do atendimento. A gerência da lanchonete quer aumentar suas vendas e melhorar sua gestão interna e, para isso, te contratou para implementar um projeto de melhorias, o Projeto `Restaurant Orders`. Em um primeiro momento (requisitos obrigatórios), você deverá atuar para que o sistema gere relatórios com informações sobre os pedidos e as pessoas clientes que frequentam a lanchonete. Estes dados irão auxiliar o trabalho de uma agência de marketing com o objetivo de alavancar as vendas e o número de pessoas clientes.
+  The Pão na Chapa snack bar has a customer order system that saves the name of the person, the order placed and the day of the week of the service. The cafeteria's management wants to increase its sales and improve its internal management and, for that, it has hired you to implement an improvement project, the `Restaurant Orders` Project.
+  
+  For the main tasks, you will code the system that generates reports with information about the orders and the customers who frequent the snack bar. This data will help the work of a marketing agency in order to leverage sales and the number of customers.
 
   For the bonus tasks, the focus of the project should be controlling the stock of ingredients to ensure that the digital menu of Pão na Chapa always offers products that are available in stock, avoiding frustration on the part of customers.
   
