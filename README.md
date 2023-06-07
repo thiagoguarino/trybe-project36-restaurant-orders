@@ -5,13 +5,25 @@
 
   This is project #6 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/). This is the last project of the Module.
 
-  A lanchonete baguette_bread cook Pão na Chapa baguette_bread cook possui um sistema de faturamento de pedidos de clientes que salva o nome da pessoa, o pedido realizado e o dia da semana do atendimento. A gerência da lanchonete quer aumentar suas vendas e melhorar sua gestão interna e, para isso, te contratou para implementar um projeto de melhorias, o Projeto `Restaurant Orders`. Em um primeiro momento (requisitos obrigatórios), você deverá atuar para que o sistema gere relatórios com informações sobre os pedidos e as pessoas clientes que frequentam a lanchonete. Estes dados irão auxiliar o trabalho de uma agência de marketing com o objetivo de alavancar as vendas e o número de pessoas clientes.
-  Em um segundo momento (requisitos bônus), o foco do projeto deverá ser o controle do estoque de ingredientes para garantir que o cardápio digital da baguette_bread cook Pão na Chapa baguette_bread cook sempre ofereça produtos que estão disponíveis no estoque, evitando frustrações por parte das pessoas clientes.
-  O projeto está estruturado em duas etapas obrigatórias e duas etapas bônus, totalizando 4 requisitos. 
+  A lanchonete Pão na Chapa possui um sistema de faturamento de pedidos de clientes que salva o nome da pessoa, o pedido realizado e o dia da semana do atendimento. A gerência da lanchonete quer aumentar suas vendas e melhorar sua gestão interna e, para isso, te contratou para implementar um projeto de melhorias, o Projeto `Restaurant Orders`. Em um primeiro momento (requisitos obrigatórios), você deverá atuar para que o sistema gere relatórios com informações sobre os pedidos e as pessoas clientes que frequentam a lanchonete. Estes dados irão auxiliar o trabalho de uma agência de marketing com o objetivo de alavancar as vendas e o número de pessoas clientes.
+
+  For the bonus tasks, the focus of the project should be controlling the stock of ingredients to ensure that the digital menu of Pão na Chapa always offers products that are available in stock, avoiding frustration on the part of customers.
+  
+  The project is structured in two mandatory task and two bonus tasks.
 
   Stack: Python3.
 
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
+
+  <details>
+    <summary>
+      <b>skills developed coding the project</b>
+    </summary>
+    <ul>
+      <li>work with Hashmaps and Dict</li>
+      <li>work with Sets</li>
+    </ul>
+  </details>
 
 ## PROJECT TASKS
 
@@ -61,21 +73,3 @@
   - `python3 -m pip install -r dev-requirements.txt`
 
   5. To execute the app
-
-    a - the files: file_management.py, file_process.py, word_search.py 
-
-    b - set the params: `a = txt_importer('data/nome_pedro.txt')`, then print it: `print(a)`
-
-    c - instance a new queue - `project = Queue()`, call `process("data/arquivo_teste.txt", project)`
-
-    d - declare var `word1 = exists_word("pedro", project)`, `word2 = search_by_word("pedro", project)`
-
-    e - print them - `print(word1)` and `print(word2)`
-
-  6. how to execute the functions:
-
-      a - `python3 ting_file_management/file_management.py`
-      
-      b - `python3 ting_file_management/file_process.py`
-
-      c - `python3 word_searches/word_search.py`
