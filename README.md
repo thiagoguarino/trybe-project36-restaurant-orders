@@ -74,9 +74,11 @@
 
   - `python3 -m pip install -r dev-requirements.txt`
 
-  <details>
+<details>
   <summary><strong>How To Execute the App</strong></summary>
-    As of this moment there is no way to 'execute' this app.
 
-    **TO DO**: *create a Console App to provide an execution mode for this project.* 
-  </details>
+  As of this moment there is no way to 'execute' this app.
+
+  **TO DO**: *create a Console App to provide an execution mode for this project.*
+
+</details>
