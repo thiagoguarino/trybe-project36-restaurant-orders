@@ -72,4 +72,10 @@
 
   - `python3 -m pip install -r dev-requirements.txt`
 
-  5. To execute the app
+  5. To execute the app:
+  
+  - on `analyze_log`, call the analyze_log(path_to_file) function and set a path file (data/orders_1.csv). then, run it.
+  
+  - on `main.py` set "path" variable to a .csv path file (data/orders_1.csv) - deals with inventory_control & track_orders.
+  
+  - on root folder type: `python3.11 src/main.py`
