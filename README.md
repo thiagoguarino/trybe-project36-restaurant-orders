@@ -77,6 +77,6 @@
 <details>
   <summary><strong>How To Execute the App</strong></summary>
 
-  - to open the Console Menu: `python3 src/main.py`
+  - to run the app: `python3 src/main.py`
 
 </details>
