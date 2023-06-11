@@ -77,8 +77,6 @@
 <details>
   <summary><strong>How To Execute the App</strong></summary>
 
-  As of this moment there is no way to 'execute' this app.
-
   - to open the Console Menu: `python3 src/main.py`
 
 </details>
