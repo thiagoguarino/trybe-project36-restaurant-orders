@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 
-data/mkt_campaign.txt
+/data/mkt_campaign.txt
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
