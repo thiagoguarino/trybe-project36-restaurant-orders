@@ -73,19 +73,33 @@ def analyze_log(path_to_file):
     if (path_to_file.endswith('.csv')) is not True:
         raise FileNotFoundError(f"Extensão inválida: '{path_to_file}'")
     try:
-        restaurant_results = restaurant_output(path_to_file)
+        rest_results = restaurant_output(path_to_file)
         maria_results = maria_output(path_to_file)
         arnaldo_results = arnaldo_output(path_to_file)
         joao_results = joao_output(path_to_file)
 
-        maria = f"{Counter(maria_results['1']).most_common()[0][0]}\n"
-        arnaldo = f"{Counter(arnaldo_results['1'])['hamburguer']}\n"
-        joao1 = f"{restaurant_results['1'].difference(joao_results['1'])}\n"
-        joao2 = f"{restaurant_results['2'].difference(joao_results['2'])}\n"
+        maria = f"Q 1: {Counter(maria_results['1']).most_common()[0][0]}\n"
+        arnaldo = f"Q 2: {Counter(arnaldo_results['1'])['hamburguer']}\n"
+        joao1 = f"Q 3: {rest_results['1'].difference(joao_results['1'])}\n"
+        joao2 = f"Q 4: {rest_results['2'].difference(joao_results['2'])}\n"
+
+        question1 = "Q 1: Qual o prato mais pedido por 'maria'?\n"
+        question2 = "Q 2: Quantas vezes 'arnaldo' pediu 'hamburguer'?\n"
+        question3 = "Q 3: Quais pratos 'joao' nunca pediu?\n"
+        question4 = "Q 4: Quais dias 'joao' nunca foi à lanchonete?\n"
 
         results_arr = [maria, arnaldo, joao1, joao2]
 
+        report_questions = [
+            question1,
+            question2,
+            question3,
+            question4
+        ]
+
         output_new_file = open("data/mkt_campaign.txt", "w+")
+        output_new_file.writelines(report_questions)
+        output_new_file.writelines("\n")
         output_new_file.writelines(results_arr)
         output_new_file.close()
     except FileNotFoundError:
