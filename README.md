@@ -1,8 +1,8 @@
 ## Trybe Project 36 - Restaurant Orders
 
-- MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)
-
 ## PROJECT OVERVIEW
+
+  **MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)**
 
   This is project #6 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/). This is the last project of the Module.
 
